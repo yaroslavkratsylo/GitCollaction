@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "newman run tests/PostmanCollectionNoFailures.postman_collection.json -e Local_Environment.postman_environment.json"
+    "test": "newman run tests/PostmanCollectionNoFailures.postman_collection.json -e tests\Local_Environment.postman_environment.json"
   },
   "repository": {
     "type": "git",
